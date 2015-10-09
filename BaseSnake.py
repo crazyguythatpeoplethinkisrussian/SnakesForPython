@@ -32,7 +32,7 @@ clock = pygame.time.Clock()
 # This loop is very interesting. When will it stop running?
 # (hint- when is the while condition false?)
 while True:
-    clock.tick(20)
+    clock.tick(50)
 
     # This gets the keyboard input. Don't worry too much about the first couple lines.
     for keypress in pygame.event.get():
@@ -85,11 +85,11 @@ while True:
     # Go ahead and do it here!
     if (hasHitBody):
         quitGame()
-
+    snakeBody.append(oldPiece)
     # Checks if the head collides with the apple.
     if (hasEaten):
         apple = randomRect()
-        snakeBody.append(oldPiece)
+
 
     #Graphically draws all the updates we just made.
     draw(oldPiece, snakeHead, snakeBody, apple, hasEaten, screen)
