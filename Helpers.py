@@ -89,10 +89,10 @@ def draw(oldPiece, head, body, appleRect, hasEaten, screen):
 
 
     # Draw the head.
-    pygame.draw.rect(screen, (0, 255, 0), head)
+    pygame.draw.rect(screen, (201, 176, 17), head)
     # Draw the body.
     for block in body:
-        pygame.draw.rect(screen, (0, 155, 0), block)
+        pygame.draw.rect(screen, (156, 137, 17), block)
 
     # If we have not eaten, we need to clear the old rectangle.
     if (not hasEaten):
