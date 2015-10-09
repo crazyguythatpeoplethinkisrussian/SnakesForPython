@@ -83,7 +83,8 @@ while True:
     # How can we do this?
     # (hint- it should be very similar to the line above!)
     # Go ahead and do it here!
-
+    if (hasHitBody):
+        quitGame()
 
     # Checks if the head collides with the apple.
     if (hasEaten):
