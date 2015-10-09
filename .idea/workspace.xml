@@ -37,8 +37,8 @@
       <file leaf-file-name="Helpers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Helpers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5618557">
-              <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.6786941">
+              <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -271,7 +271,13 @@
       <option name="project" value="LOCAL" />
       <updated>1444406902809</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changed the head and body to gold colors.">
+      <created>1444407092585</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1444407092585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -314,7 +320,8 @@
     <MESSAGE value="Added body collision." />
     <MESSAGE value="Made the controls more forgiving. (sissier)" />
     <MESSAGE value="Upped the game speed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upped the game speed." />
+    <MESSAGE value="Changed the head and body to gold colors." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the head and body to gold colors." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -363,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Helpers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5618557">
-          <caret line="94" column="55" selection-start-line="94" selection-start-column="55" selection-end-line="94" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.6786941">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
