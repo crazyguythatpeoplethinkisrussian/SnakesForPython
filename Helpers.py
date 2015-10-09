@@ -85,21 +85,23 @@ def randomRect():
     return Rect(randint(1, xBound - 2) * blockSize, randint(1, yBound - 2) * blockSize, blockSize, blockSize)
 
 # Draw the screen depending on what happens.
-def draw(oldPiece, head, body, appleRect, hasEaten, screen):
+def draw(oldPiece, head,head2, body, body2, appleRect, hasEaten, screen):
 
 
     # Draw the head.
-    pygame.draw.rect(screen, (255, 0, 0), head)
+    pygame.draw.rect(screen, (0, 255, 255), head)
     # Draw the body.
     for block in body:
-        pygame.draw.rect(screen, (0, 255, 255), block)
+        pygame.draw.rect(screen, (0, 155, 155), block)
 
     # If we have not eaten, we need to clear the old rectangle.
     if (not hasEaten):
-        pygame.draw.rect(screen, (255, 0, 255), oldPiece)
+        pygame.draw.rect(screen, (0, 0, 0), oldPiece)
 
     # Draw the apple.
-    pygame.draw.rect(screen, (0, 0, 0), appleRect)
+    pygame.draw.rect(screen, (255, 0, 0), appleRect)
+    pygame.draw.rect(screen, (255, 0, 255), body2)
+    pygame.draw.rect(screen, (155, 0, 155), head2)
 
 
 
